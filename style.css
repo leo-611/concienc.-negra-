@@ -10,12 +10,12 @@ body {
     font-family: 'Georgia', serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f8f8;
+    background-color: #ff0000;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #333;
+    background-color: #fcd80f;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -39,7 +39,7 @@ main {
 }
 
 .article {
-    background-color: #fff;
+    background-color: #35a419;
     padding: 20px;
     margin-bottom: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -68,6 +68,7 @@ main {
 }
 
 .images {
+    display: flex;
     gap: 20px;
     justify-content: center;
 }
