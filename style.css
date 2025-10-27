@@ -40,7 +40,6 @@ main {
 
 .article {
     background-color: #35a419;
-    color: #fff;
     padding: 20px;
     margin-bottom: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -49,7 +48,7 @@ main {
 .article h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #333;
+    color: #ffffff;
 }
 
 .article p {
