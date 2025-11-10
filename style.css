@@ -89,7 +89,8 @@ footer {
 }
 .pou{
     width: 100px;
-    display: flex
+    display: flex;
+   border-radius: 50%; /* Aplica a borda circular */
 }
 #pou1{
     left: 10px;
