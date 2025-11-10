@@ -88,5 +88,6 @@ footer {
     margin-top: 50px;
 }
 .pou{
-    width: 100px;
+    width: 10px;
+    display: flex
 }
