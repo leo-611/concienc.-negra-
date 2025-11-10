@@ -88,6 +88,12 @@ footer {
     margin-top: 50px;
 }
 .pou{
-    width: 10px;
+    width: 100px;
     display: flex
+}
+#pou1{
+    left: 10px;
+}
+#pou2{
+    right: 10px;
 }
