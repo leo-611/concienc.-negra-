@@ -1,3 +1,102 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ff0000;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fcd80f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Artigos */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article {
+    background-color: #35a419;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.article p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Galeria de imagens */
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+.pou{
+    width: 100px;
+    display: flex
+}
+#pou1{
+    left: 10px;
+}
+#pou2{
+    right: 10px;
+}
 /* Cabeçalho */
 header {
     background-color: #fcd80f;
